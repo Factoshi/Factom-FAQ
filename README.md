@@ -6,7 +6,7 @@ A list of frequently asked questions about the Factom protocol and governance --
 
 #### What is Factom?
 
-Factom is an open-source, decentralised, public protocol that uses blockchain to establish data-integrity. Factom is a pure data blockchain: it offers a way to prove the existence and state of arbitrary data. Typical use case include proof-of-existence, tokenisation, and smart contracts. Factom has a two-token system designed to ensure predictable fees.
+Factom is an open-source, decentralised, public protocol that uses blockchain to establish data-integrity. Factom is a pure data blockchain: it offers a way to prove the existence and state of arbitrary data. Typical use case include proof-of-existence, tokenisation, and smart contracts. Factom has a [two-token system](https://github.com/Factoshi/Factom-FAQ#how-does-factoms-two-token-system-work) designed to ensure predictable fees.
 
 #### Is Factom a public of private blockchain?
 
@@ -14,7 +14,13 @@ Factom can be used as both a public or a private blockchain. The information in 
 
 #### What was M3?
 
-M3 was the most recent major release of Factomd. It marked the point at which Factom transitioned from a centralised protocol developed and run exclusively by Factom Inc, to becoming a decentralised protocol operated and governed by dozens of companies worldwide. Furthermore, M3 marked the introduction of Factom's inflation mechanism, which is used to pay for decentralisation of the protocol and for other important development, marketing and infrastructure efforts via the grant pool.
+M3 was the most recent major release of Factomd. It marked the point at which Factom transitioned from a centralised protocol developed and run exclusively by Factom Inc, to becoming a decentralised protocol operated and governed by dozens of companies worldwide. Furthermore, M3 marked the introduction of Factom's inflation mechanism, which is used to pay for decentralisation of the protocol and for other important development, marketing and infrastructure efforts via the [grant pool](https://github.com/Factoshi/Factom-FAQ#what-is-the-grant-pool).
+
+#### What is the difference between Factom and Factom Inc?
+
+Factom is the open-source, decentralised data-integrity protocol that is described in the question “What is Factom?”. Factom Inc., is the US company that conceived and developed Factom.
+
+This is an important distinction, as there are many companies actively developing and writing applications for Factom.
 
 # Blockchain and Protocol
 
@@ -32,7 +38,7 @@ An important function of Entry Chains is to allow users to efficiently prove a n
 
 Factom leverages the security delivered by Bitcoin’s proof of work in order to improve its own security. It achieves this by inserting the most recent directory block hash into Bitcoin using Bitcoin’s OP_RETURN feature. This process is known as “anchoring”.
 
-Factom is blockchain-agnostic - it can anchor into any other blockchain. It currently only uses Bitcoin, but there is also work underway to integrate Ethereum as well.
+Factom is blockchain-agnostic; it can anchor into any other blockchain. It currently only uses Bitcoin, but there is also work underway to integrate Ethereum as well.
 
 #### How does Factom's two-token system work?
 
@@ -40,7 +46,7 @@ Factom uses two tokens. The first is the Factoid (FCT). The Factoid is a transfe
 
 Entry Credits (EC) are a non-transferrable (i.e. non-tradeable) token used to pay for network use. They are created by burning FCT. Entry Credits are non-divisible units that can each pay for up to 1 kb of data storage on the Factom blockchain. Entry Credits are completely destroyed once they have been used; they are not transferred anywhere.
 
-There is a variable exchange rate between FCT and EC. This exchange rate is determined by the network Oracle, which is currently operated by Factom Inc. The purpose of the variable exchange rate is to always target a consistent cost of $0.001 USD per Entry Credit. Targetting a price per Entry Credit of $0.001 allows business to accurately budget their use of the protocol.
+There is a variable exchange rate between FCT and EC. This exchange rate is determined by the network oracle, which is currently operated by Factom Inc. The purpose of the variable exchange rate is to always target a consistent cost of $0.001 USD per Entry Credit. Targeting a price per Entry Credit of $0.001 allows business to accurately budget their use of the protocol.
 
 Together, Factoids and Entry Credits create a 'mint and burn' system. The costs associated with the network are payed for in the minting process, and use of network resources ensure continuing demand of those tokens via their necessary destruction.
 
@@ -52,24 +58,22 @@ When people say that Factom is 'pure data', they mean that the content of entrie
 
 #### What is an Authority Node?
 
-An Authority Node is a network node that has sufficient privileges to write data into the Factom blockchain. An Authority Node is a broad term that encompasses two different types of network node on Factom, federates nodes and audit nodes:
+An Authority Node is a network node that has sufficient privileges to write data into the Factom blockchain. An Authority Node is a broad term that encompasses two different types of network node on Factom, federated nodes and audit nodes:
 
-Federated nodes (AKA ‘Feds’ or ‘Leaders’) are nodes that actively write data into the blockchain. Federated nodes account for roughly half of authority nodes.
-Audit nodes (AKA ‘audits’) are nodes acting on standby, ready to take the place of a federated node if it fails.
+-   Federated nodes (AKA ‘Feds’ or ‘Leaders’) are nodes that actively write data into the blockchain. Federated nodes account for roughly half of authority nodes.
+-   Audit nodes (AKA ‘audits’) are nodes acting on standby, ready to take the place of a federated node if it fails.
 
 Federated nodes and audit nodes trade places in events known as ‘elections’. These elections are entirely automated on-chain events that require no human intervention.
 
-All non-Authority nodes are referred to simply as 'followers'. These nodes have no special privileges in the network. They are used to download the bloclchain and broadcast/relay new transactions.
+All non-Authority nodes are referred to simply as 'followers'. These nodes have no special privileges in the network. They are used to download the blockchain and broadcast/relay new transactions.
 
 #### What is an Authority Node Operator?
 
-An Authority Node Operator (ANO) is an organisation that operates the network’s authority nodes. Beyond that, ANOs are expected to also take part in governance and, depending on their efficiency, contribute meaningfully to marketing the protocol and/or software development (whether that be some application that uses Factom or core development).
+An Authority Node Operator (ANO) is an organisation that operates the network’s [Authority Nodes](https://github.com/Factoshi/Factom-FAQ#what-is-the-grant-pool). Beyond that, ANOs are expected to also take part in governance and, depending on their [efficiency](https://github.com/Factoshi/Factom-FAQ#what-is-the-grant-pool), contribute meaningfully to marketing the protocol and/or software development (whether that be some application that uses Factom or core development).
 
 #### How are Authority Nodes Operators chosen?
 
-Authority Nodes are chosen by standing parties in regular elections. A standing party is an entity that has some kind of provable vested interest or reputation in the protocol. Currently, standing parties only officially include Guides and Authority Node Operators.
-
-Eventually, standing parties will include Guides, Authority Node Operators, Factoid holders, FCT burners and EC users. At that stage, all elections are expected to take place in a continuous on-chain process.
+Authority Nodes are chosen by [standing parties](https://github.com/Factoshi/Factom-FAQ#what-is-a-standing-party) in regular elections.
 
 #### What is efficiency as it pertains to authority node operators?
 
@@ -79,26 +83,36 @@ By deferring funds to the grant pool, an authority node operator increases their
 
 High efficiency nodes are often referred to as “infrastructure nodes”, as their primary activity is typically to provide a stable network infrastructure.
 
+# Governance
+
+### What is a standing party?
+
+A standing party is an entity that has some kind of provable vested interest or reputation in the protocol. Currently, standing parties only officially include Guides and Authority Node Operators.
+
+Eventually, standing parties will include Guides, Authority Node Operators, Factoid holders, FCT burners and EC users. At that stage, all elections are expected to take place in a continuous on-chain process.
+
+### What is a Guide?
+
+A Guide is a [standing party](https://github.com/Factoshi/Factom-FAQ#what-is-a-standing-party) who drives forwards key protocol governance issues. They often introduce new governance legislation and are intimately involved in the minutiae of protocol governance. There are currently 5 Guides. They have term lengths of one year and all Guides stand for election at the same time. Along with other standing parties, Guides cast votes on governance matters.
+
+### Where can I read Factom's governance documents?
+
+You can read more about Factom's formal governance processes on the [Factom Protocol website](https://factomize.com/forums/documents/)
+
 # Business
-
-#### What is the difference between Factom and Factom Inc?
-
-Factom is the open-source, decentralised data-integrity protocol that is described in the question “What is Factom?”. Factom Inc., is the US company that conceived and developed Factom.
-
-This is an important distinction, as there are many companies actively developing and writing applications for Factom.
 
 #### Who is using Factom?
 
 Factom is used by a number of different private, public and charitable organisations, with many other reportedly in the pipeline. These include, but are not limited to:
 
--   The Bill and Melinda Gates Foundation
--   Equator
--   Linxens
--   Dutch local government via Sphereon
+-   [The Bill and Melinda Gates Foundation](https://www.youtube.com/watch?v=rf5lg6kEMEg)
+-   [Equator](https://www.nasdaq.com/press-release/equator-launches-mortgage-servicing-blockchain-solution-20181113-00843)
+-   [Linxens](https://www.linxens.com/dloc/)
+-   [Blockchain-as-a-service company Sphereon](https://www.investinblockchain.com/sphereon-factom-first-live-customer/)
 
 and many others...
 
-Factom Inc has won a series of grants from the US Department of Homeland Security to secure data generated by IoT border devides. The outcome of these grants is currently pending.
+Factom Inc has won a series of grants from the US Department of Homeland Security to secure data generated by IoT border devices.
 
 #### What are Factom's use cases?
 
@@ -106,7 +120,7 @@ Factom has a number of use cases that can all be derived from its ability to est
 
 1. Proof of existence - Committing some data or the hash of some data proves that data existed at the time the block was created.
 2. Smart contracts - Computation takes place off-chain then new state is updated on-chain.
-3. Tokenisation - An extension of smart contracts. See the FAT Protocol.
+3. Tokenisation - An extension of smart contracts. See the [FAT Protocol](https://github.com/Factom-Asset-Tokens/FAT).
 4. Digital Identities - A self-sovereign digital identity fully under the control of the end user.
 
 Each of these core concepts can be expanded in many directions to be used by many different industries. For example, tokenisation might allow for the representation of physical objects on the Factom blockchain that can then be tracked and traded. Proof of existence can be used to prove that
@@ -117,9 +131,9 @@ Factom is the basis of a number of blockchain-as-a-service offerings. These serv
 
 #### What is the grant pool?
 
-The grant pool is a pool of FCT use to fund grants designed to somehow advane the Factom ecosystem or pay for necessary infrastructure. Recent grants include development of the Factom Ledger Nano S application and development of the Factom Asset Token protocol. Core development is also funded via the grant pool.
+The grant pool is a pool of FCT use to fund grants designed to somehow advance the Factom ecosystem or pay for necessary infrastructure. Recent grants include development of the Factom Ledger Nano S application and development of the Factom Asset Token protocol. Core development is also funded via the grant pool.
 
-The FCT in the grant pool is replenished via ANO efficiency.
+The FCT in the grant pool is replenished via [efficiency](https://github.com/Factoshi/Factom-FAQ#what-is-efficiency-as-it-pertains-to-authority-node-operators).
 
 # Development
 
