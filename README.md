@@ -87,7 +87,7 @@ High efficiency nodes are often referred to as “infrastructure nodes”, as th
 
 ### What is a standing party?
 
-A standing party is an entity that has some kind of provable vested interest or reputation in the protocol. Currently, standing parties only officially include Guides and Authority Node Operators.
+A standing party is an entity that has some kind of provable vested interest or reputation in the protocol. Currently, standing parties only officially include [Guides](https://github.com/Factoshi/Factom-FAQ#what-is-the-grant-pool) and (Authority Node Operators)[https://github.com/Factoshi/Factom-FAQ#what-is-an-authority-node-operator].
 
 Eventually, standing parties will include Guides, Authority Node Operators, Factoid holders, FCT burners and EC users. At that stage, all elections are expected to take place in a continuous on-chain process.
 
