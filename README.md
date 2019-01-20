@@ -18,7 +18,7 @@ M3 was the most recent major release of Factomd. It marked the point at which Fa
 
 #### What is the difference between Factom and Factom Inc?
 
-Factom is the open-source, decentralised data-integrity protocol that is described in the question “What is Factom?”. Factom Inc., is the US company that conceived and developed Factom.
+Factom is the open-source, decentralised data-integrity protocol that is described in the question [“What is Factom?”](https://github.com/Factoshi/Factom-FAQ#what-is-factom). Factom Inc., is the US company that conceived and developed Factom.
 
 This is an important distinction, as there are many companies actively developing and writing applications for Factom.
 
