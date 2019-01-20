@@ -77,7 +77,7 @@ Authority Nodes are chosen by [standing parties](https://github.com/Factoshi/Fac
 
 #### What is efficiency as it pertains to authority node operators?
 
-Each authority node can receive a maximum 1123 FCT per month for its service in securing and performing consensus on the network. Efficiency refers to the percentage of that payment that a server defers to the grant pool.
+Each authority node can receive a maximum 1123 FCT per month for its service in securing and performing consensus on the network. Efficiency refers to the percentage of that payment that a server defers to the [grant pool](https://github.com/Factoshi/Factom-FAQ#what-is-the-grant-pool).
 
 By deferring funds to the grant pool, an authority node operator increases their impact by ensuring that useful projects can receive funding. Conversely, by retaining funds, an authority node operator can typically use those funds to meet self-defined development or marketing goals.
 
