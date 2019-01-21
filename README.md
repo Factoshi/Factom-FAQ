@@ -6,7 +6,7 @@ A list of frequently asked questions about the Factom protocol and governance --
 
 ### What is Factom?
 
-Factom is an open-source, decentralised, public protocol that uses blockchain to establish data-integrity. Factom is a pure data blockchain: it offers a way to prove the existence and state of arbitrary data. Typical use case include proof-of-existence, tokenisation, and smart contracts. Factom has a [two-token system](https://github.com/Factoshi/Factom-FAQ#how-does-factoms-two-token-system-work) designed to ensure predictable fees that allows businesses to use the blockchain for a predictable cost without handling cryptocurrency.
+Factom is an open-source, decentralised, public protocol that uses blockchain to establish data-integrity. Factom is a pure data blockchain: it offers a way to prove the existence and state of arbitrary data. Typical use cases include proof-of-existence, tokenisation, and smart contracts. Factom has a [two-token system](https://github.com/Factoshi/Factom-FAQ#how-does-factoms-two-token-system-work) designed to ensure predictable fees that allow businesses to use the blockchain for a predictable cost without handling cryptocurrency.
 
 ### Is Factom a public of private blockchain?
 
@@ -14,11 +14,11 @@ Factom can be used as both a public or a private blockchain. The information in 
 
 ### What was M3?
 
-M3 was the most recent major release of Factomd. It marked the point at which Factom transitioned from a centralised protocol developed and run exclusively by Factom Inc, to becoming a decentralised protocol operated and governed by dozens of companies worldwide. Furthermore, M3 marked the introduction of Factom's inflation mechanism, which is used to pay for decentralisation of the protocol and for other important development, marketing and infrastructure efforts via the [grant pool](https://github.com/Factoshi/Factom-FAQ#what-is-the-grant-pool).
+Milestone 3, or M3, was the most recent major release of Factomd. It marked the point at which Factom transitioned from a centralised protocol developed and run exclusively by Factom Inc, to becoming a decentralised protocol operated and governed by dozens of companies worldwide. Furthermore, M3 marked the introduction of Factom's inflation mechanism, which is used to pay for decentralisation of the protocol and for other important development, marketing and infrastructure efforts via the [grant pool](https://github.com/Factoshi/Factom-FAQ#what-is-the-grant-pool).
 
 ### What is the difference between Factom and Factom Inc?
 
-The Factom protocol is an open source data integrity protocol built by a coalition of technology companies that extends the security of blockchain to any type of data. Factom Inc., is the US company that conceived and developed Factom.
+The Factom protocol is an open source data integrity protocol built by a coalition of technology companies that extends the security of blockchain to any type of data. Factom Inc., is the US company that conceived and initially developed Factom.
 
 This is an important distinction, as there are many companies actively developing and writing applications for Factom.
 
@@ -103,12 +103,13 @@ You can read more about Factom's formal governance processes on the [Factom Prot
 
 ### Who is using Factom?
 
-Factom is used by a number of different private, public and charitable organisations, with many other reportedly in the pipeline. These include, but are not limited to:
+Factom is used by a number of different private, public and charitable organisations, with many others reportedly in the pipeline. These include, but are not limited to:
 
 -   [The Bill and Melinda Gates Foundation](https://www.youtube.com/watch?v=rf5lg6kEMEg)
 -   [Equator](https://www.nasdaq.com/press-release/equator-launches-mortgage-servicing-blockchain-solution-20181113-00843)
 -   [Linxens](https://www.linxens.com/dloc/)
 -   [Blockchain-as-a-service company Sphereon](https://www.investinblockchain.com/sphereon-factom-first-live-customer/)
+-   [Yooya](https://bitcoinexchangeguide.com/yooya-to-use-factom-harmony-blockchain-for-video-verification-in-china/)
 
 and many others...
 
@@ -123,7 +124,7 @@ Factom has a number of use cases that can all be derived from its ability to est
 3. Tokenisation - An extension of smart contracts. See the [FAT Protocol](https://github.com/Factom-Asset-Tokens/FAT).
 4. Digital Identities - A self-sovereign digital identity fully under the control of the end user.
 
-Each of these core concepts can be expanded in many directions to be used by many different industries. For example, tokenisation might allow for the representation of physical objects on the Factom blockchain that can then be tracked and traded. Proof of existence can be used to prove that
+Each of these core concepts can be expanded in many directions to be used by many different industries. For example, tokenisation might allow for the representation of physical objects on the Factom blockchain that can then be tracked and traded. Proof of existence can be used to prove that data existed at the timestamp of the block it is hashed into. 
 
 ### Why do people say that companies do not need to use Entry Credits to use the protocol?
 
@@ -139,7 +140,7 @@ The FCT in the grant pool is replenished by network inflation (see question on [
 
 ### Who develops the Factom protocol?
 
-The vast bulk of core development on the Factom protocol has thus far been completed by Factom Inc. However, several other business have recently begun to contribute towards core development, and there are plans by others to begin work in the near future.
+The vast bulk of core development on the Factom protocol has thus far been completed by Factom Inc. However, several other businesses have recently begun to contribute towards core development, and there are plans by others to begin work in the near future.
 
 ### What is factomd?
 
