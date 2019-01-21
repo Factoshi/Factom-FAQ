@@ -8,7 +8,7 @@ A list of frequently asked questions about the Factom protocol and governance --
 
 Factom is an open-source, decentralised, public protocol that uses blockchain to establish data-integrity. Factom is a pure data blockchain: it offers a way to prove the existence and state of arbitrary data. Typical use cases include proof-of-existence, tokenisation, and smart contracts. Factom has a [two-token system](https://github.com/Factoshi/Factom-FAQ#how-does-factoms-two-token-system-work) designed to ensure predictable fees that allow businesses to use the blockchain for a predictable cost without handling cryptocurrency.
 
-### Is Factom a public of private blockchain?
+### Is Factom a public or private blockchain?
 
 Factom can be used as both a public or a private blockchain. The information in this FAQ pertains to the public blockchain, though Factom Inc does have a private blockchain solution that they offer to clients, and there may be other businesses implementing/using a private version of Factom.
 
@@ -124,7 +124,7 @@ Factom has a number of use cases that can all be derived from its ability to est
 3. Tokenisation - An extension of smart contracts. See the [FAT Protocol](https://github.com/Factom-Asset-Tokens/FAT).
 4. Digital Identities - A self-sovereign digital identity fully under the control of the end user.
 
-Each of these core concepts can be expanded in many directions to be used by many different industries. For example, tokenisation might allow for the representation of physical objects on the Factom blockchain that can then be tracked and traded. Proof of existence can be used to prove that data existed at the timestamp of the block it is hashed into. 
+Each of these core concepts can be expanded in many directions to be used by many different industries. For example, tokenisation might allow for the representation of physical objects on the Factom blockchain that can then be tracked and traded. Proof of existence can be used to prove that data existed at the timestamp of the block it is hashed into.
 
 ### Why do people say that companies do not need to use Entry Credits to use the protocol?
 
